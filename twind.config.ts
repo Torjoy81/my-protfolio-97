@@ -47,10 +47,6 @@ export default {
         "2xl": "1536px",
       },
     },
-    preflight: {
-      "@import":
-        `url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500&family=Raleway:wght@200;300;400;500&display=swap')`,
-    },
   }),
 
   selfURL: import.meta.url,
