@@ -19,11 +19,8 @@ export default function NavButton() {
   return (
     <Fragment>
       <button
-        data-collapse-toggle="navbar-default"
         type="button"
-        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
-        aria-controls="navbar-default"
-        aria-expanded="false"
+        class="inline-flex bg-white items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
         onClick={handleNav}
       >
         <span class="sr-only">Open main menu</span>

@@ -25,34 +25,34 @@ export default function Skills() {
       </h1>
       <div class="flex flex-wrap flex-row gap-5  p-8 " id={"Skills"}>
         <ToolLip Title="HTML5">
-          <FaHtml5 class="w-8 h-8 text-orange-600 -z-10 transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
+          <FaHtml5 class="w-8 h-8 text-orange-600  transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
         </ToolLip>
         <ToolLip Title="CSS3">
-          <FaCss3 class="w-8 h-8 text-sky-500 -z-10 transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
+          <FaCss3 class="w-8 h-8 text-sky-500 transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
         </ToolLip>
         <ToolLip Title="JavaScript">
-          <SiJavascript class="w-8 h-8 text-yellow-300 -z-10 transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
+          <SiJavascript class="w-8 h-8 text-yellow-300  transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
         </ToolLip>
         <ToolLip Title="TypeScript">
-          <SiTypescript class="w-8 h-8 text-sky-900 -z-10 transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
+          <SiTypescript class="w-8 h-8 text-sky-900  transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
         </ToolLip>
         <ToolLip Title="Vue3">
-          <IoLogoVue class="w-8 h-8 text-green-400 -z-10  transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
+          <IoLogoVue class="w-8 h-8 text-green-400   transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
         </ToolLip>
         <ToolLip Title="Nuxt3">
-          <SiNuxtdotjs class="w-8 h-8 text-green-400 -z-10 transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
+          <SiNuxtdotjs class="w-8 h-8 text-green-400  transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
         </ToolLip>
         <ToolLip Title="GitHub">
           <FaGithub class="w-8 h-8 transition duration-150 -z-10 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
         </ToolLip>
         <ToolLip Title="TailWind">
-          <SiTailwindcss class="w-8 h-8  text-sky-300 -z-10 transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
+          <SiTailwindcss class="w-8 h-8  text-sky-300  transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
         </ToolLip>
         <ToolLip Title="SQL&Non-SQL ">
-          <FaDatabase class="w-8 h-8 transition duration-150 -z-10 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
+          <FaDatabase class="w-8 h-8 transition duration-150  ease-out  hover:(shadow-2xl scale-150 ease-in)" />
         </ToolLip>
         <ToolLip Title="Angular">
-          <FaAngular class="w-8 h-8 text-red-600 transition -z-10 duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
+          <FaAngular class="w-8 h-8 text-red-600 transition  duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
         </ToolLip>
       </div>
     </div>
