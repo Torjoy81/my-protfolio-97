@@ -24,7 +24,6 @@
     "react-icons/hi2": "https://cdn.jsdelivr.net/gh/urielch/react-icons-hi2@1.0.9/mod.ts",
     "react-icons/md": "https://cdn.jsdelivr.net/gh/urielch/react-icons-md@1.0.9/mod.ts",
     "react-icons/si": "https://deno.land/x/react_icons@0.1.0/si/mod.ts",
-    "react-scroll": "https://esm.sh/v124/react-scroll@1.8.9/es2022/react-scroll.mjs",
     "twind": "https://esm.sh/twind@0.16.19",
     "twind/": "https://esm.sh/twind@0.16.19/",
     "$std/": "https://deno.land/std@0.190.0/"
