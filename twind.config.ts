@@ -48,12 +48,30 @@ export default {
               opacity: 1,
             },
           },
+          animateBlob: {
+            "0%": {
+              borderRadius: " 45% 55% 70% 35% / 70% 30% 90% 40%",
+            },
+            "25%": {
+              borderRadius: " 55% 45% 30% 35% / 50% 30% 60% 10%",
+            },
+            "50%": {
+              borderRadius: " 65% 35% 35% 65% / 40% 60% 30% 70%",
+            },
+            "75%": {
+              borderRadius: " 35% 65% 60% 40% / 70% 30% 40% 60%",
+            },
+            "100%": {
+              borderRadius: " 45% 55% 70% 35% / 70% 30% 90% 40%",
+            },
+          },
         },
         animation: {
           "left-right": "leftright 0.5s ease-in forwards",
           "right-left": "rightleft 0.5s ease-out forwards",
           "up-down": "UpToDown 1s ease-in forwards",
           "down-up": "DownToUp 1s ease-out forwards",
+          "blob": "animateBlob 8s linear infinite ",
         },
       },
       screens: {

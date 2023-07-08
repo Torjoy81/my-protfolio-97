@@ -57,10 +57,10 @@ export default function BannerBody() {
           </a>
         </div>
       </div>
-      <div class="md:col-start-4 md:col-span-2  bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden  md:h-96 md:w-96 md:-z-10">
+      <div class="md:col-start-4 md:col-span-2  bg-gradient-to-b from-teal-500 animate-blob w-[50vw] h-[50vw] relative overflow-hidden  md:h-96 md:w-96 md:-z-10">
         <img
-          src="image/ImageofTarek-removebg.webp"
-          class="xs:(w-48 h-80 object-cover mx-auto) md:(object-scale-down mx-auto hover:object-scale-down )"
+          src="image/Mypic.png"
+          class="xs:(w-48 h-80 object-cover mx-auto) md:(w-30 mx-auto  )"
         />
       </div>
     </section>
