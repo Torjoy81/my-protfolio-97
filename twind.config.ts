@@ -1,6 +1,6 @@
-import { defineConfig } from "https://esm.sh/@twind/core@1.1.3";
-import presetTailwind from "https://esm.sh/@twind/preset-tailwind@1.1.4";
-import presetAutoprefix from "https://esm.sh/@twind/preset-autoprefix@1.0.7";
+import { defineConfig } from "@twind/core";
+import presetTailwind from "@twind/preset";
+import presetAutoprefix from "@twind/preset_autoprefix";
 
 export default {
   ...defineConfig({
@@ -28,10 +28,32 @@ export default {
 
             "100%": { transform: "translateX(1000px)", opacity: 0 },
           },
+          UpToDown: {
+            "0%": {
+              transform: "translateY(-100%)",
+              opacity: 1,
+            },
+            "100%": {
+              transform: "translateY(0%)",
+              opacity: 1,
+            },
+          },
+          DownToUp: {
+            "0%": {
+              transform: "translateY(0%)",
+              opacity: 1,
+            },
+            "100%": {
+              transform: "translateY(-100%)",
+              opacity: 1,
+            },
+          },
         },
         animation: {
           "left-right": "leftright 0.5s ease-in forwards",
           "right-left": "rightleft 0.5s ease-out forwards",
+          "up-down": "UpToDown 1s ease-in forwards",
+          "down-up": "DownToUp 1s ease-out forwards",
         },
       },
       screens: {
