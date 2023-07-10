@@ -19,8 +19,8 @@
   animation: bounce 1s infinite;
 }
 .circle2 {
-  bottom: 20%;
-  left: 16%;
+  bottom: 25%;
+  left: 20%;
   animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 @keyframes ping {
@@ -42,3 +42,15 @@
   
 }
 
+@media (min-width:1024px) and (max-width:1450px){
+.circle1 {
+  top: 15%;
+  right: 10%;
+  animation: bounce 1s infinite;
+}
+.circle2 {
+  bottom: 16%;
+  left: 14%;
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+}

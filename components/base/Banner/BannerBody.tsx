@@ -13,9 +13,9 @@ export default function BannerBody() {
       <div class={" circle1 "}></div>
       <div class={"animate-ping circle2 "}></div>
       <section
-        class={" mx-auto md:bg-white/30 md:backdrop-blur-md md:shadow-xl md:w-[60%] md:mt-32 xs:mt-20 rounded-lg "}
+        class={" mx-auto md:bg-white/30 md:backdrop-blur-md md:shadow-xl md:w-[75%] 2xl:w-[60%] md:mt-32 xs:mt-20 rounded-lg "}
       >
-        <div class="flex flex-col gap-y-4  md:flex-row  md:min-h-[50vh]  items-center md:justify-center  md:gap-x-10  ">
+        <div class="flex flex-col gap-y-4  md:flex-row  md:min-h-[60vh] 2xl:min-h-[50vh]  items-center md:justify-center  md:gap-x-10  ">
           <div class="xs:text-justify xs:p-8 ">
             <h1 class="text-5xl text-teal-600 uppercase font-poppins font-medium py-3">
               Forntend Developer
