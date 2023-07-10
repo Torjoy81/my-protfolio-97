@@ -10,8 +10,8 @@ import ToolLip from "../toolLip.tsx";
 export default function BannerBody() {
   return (
     <Fragment>
-      <div class={"circle1"}></div>
-      <div class={"circle2"}></div>
+      <div class={" circle1 "}></div>
+      <div class={"animate-ping circle2 "}></div>
       <section
         class={" mx-auto md:bg-white/30 md:backdrop-blur-md md:shadow-xl md:w-[60%] md:mt-32 xs:mt-20 rounded-lg "}
       >
