@@ -12,7 +12,7 @@ export default function ToolLip({ children, Title }: ToolLipProps) {
     >
       {children}
       <span
-        class={"invisible opacity-0 group-hover:(visible opacity-100) transition bg-violet-300  text-white text-base p-1 rounded absolute top-12 whitespace-nowrap"}
+        class={"invisible opacity-0 group-hover:(visible opacity-100) transition bg-violet-300 font-poppins text-xs  text-white uppercase text-base p-1 rounded absolute top-12 whitespace-nowrap"}
       >
         {Title}
       </span>

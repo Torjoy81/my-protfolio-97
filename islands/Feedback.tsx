@@ -100,7 +100,7 @@ export default function FeedBack() {
   return (
     <SectionWrap>
       <h1
-        class="text-3xl font-medium  underline underline-offset-4 mb-4 decoration-cyan-300"
+        class="text-4xl font-bold font-poppins text-cyan-600 mb-4"
         id={"Feedback"}
       >
         FeedBack

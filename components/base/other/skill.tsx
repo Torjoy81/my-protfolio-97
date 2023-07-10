@@ -18,7 +18,7 @@ export default function Skills() {
   return (
     <div class=" md:(max-w-4xl mt-20 mx-auto -z-10)   xs:(flex flex-col gap-y-4 items-center mt-10 )">
       <h1
-        class="text-3xl font-medium  underline underline-offset-4 mb-4 decoration-cyan-300"
+        class="text-4xl font-bold font-poppins text-cyan-600 "
         id={"Experience"}
       >
         Tech Skills
@@ -43,7 +43,7 @@ export default function Skills() {
           <SiNuxtdotjs class="w-8 h-8 text-green-400  transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
         </ToolLip>
         <ToolLip Title="GitHub">
-          <FaGithub class="w-8 h-8 transition duration-150 -z-10 ease-out  hover:(shadow-2xl scale-150 ease-in)" />
+          <FaGithub class="w-8 h-8 transition duration-150  ease-out  hover:(shadow-2xl scale-150 ease-in)" />
         </ToolLip>
         <ToolLip Title="TailWind">
           <SiTailwindcss class="w-8 h-8  text-sky-300  transition duration-150 ease-out  hover:(shadow-2xl scale-150 ease-in)" />

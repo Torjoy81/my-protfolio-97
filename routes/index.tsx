@@ -21,10 +21,11 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500&family=Raleway:wght@200;300;400;500&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@200;300;400;500&display=swap"
           rel="stylesheet"
         >
         </link>
+        <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/footer.css" />
       </Head>
       <BasicLayout>
@@ -35,6 +36,7 @@ export default function Home() {
         <Tab />
         <FeedBack />
       </BasicLayout>
+
       <script src="https://player.vimeo.com/api/player.js"></script>
     </>
   );

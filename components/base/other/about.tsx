@@ -1,24 +1,19 @@
 export default function About() {
   return (
     <div
-      class="  md:(max-w-4xl mt-20 mx-auto)   xs:(flex flex-col gap-y-4 items-center mt-10 )"
+      class="  md:(max-w-5xl mt-20 mx-auto bg-white/30 backdrop-blur-md shadow-lg p-8 mt-6 rounded-lg)   xs:(flex flex-col gap-y-4 items-center mt-10 )"
       id={"About"}
     >
-      <h1
-        class="text-4xl font-medium underline underline-offset-4 decoration-cyan-300"
-        style={{
-          "font-family": "'Montserrat', sans-serif",
-        }}
-      >
+      <h1 class="text-4xl font-bold font-poppins text-cyan-600 ">
         About
       </h1>
-      <p class=" text-justify mt-4 xs:px-8 ">
+      <p class=" text-justify mt-4 xs:px-8 font-poppins font-light">
         I'm a dedicated front-end developer with an interest for designing user
         interfaces that are simple to understand and visually appealing. I have
         worked with both frontend and backend, including API management,
         authentication, and web sockets.
       </p>
-      <p class={"text-justify mt-4 xs:px-8"}>
+      <p class={"text-justify mt-4 xs:px-8 font-poppins font-light"}>
         I have significant experience working with Vue.js, a popular JavaScript
         framework for building user interfaces. Through my projects, I have
         developed a strong understanding of Vue's core concepts and ecosystem,
@@ -31,7 +26,7 @@ export default function About() {
         pagination,filter,form,Dialog, etc. Those experiences made me get along
         with Typescript
       </p>
-      <p class={"text-justify mt-4 xs:px-8"}>
+      <p class={"text-justify mt-4 xs:px-8 font-poppins font-light"}>
         Finally I would like to say that I'm not a complete full stack
         developer.that's why I'm looking for an opportunity to be better for not
         only learn technical thing but also manners. I am quick and good

@@ -7,7 +7,7 @@ type ChildrenProps = {
 };
 export default function BasicLayout({ children }: ChildrenProps) {
   return (
-    <div>
+    <div class={"bg-gradient-to-tr from-cyan-200 to-white"}>
       <NavBar title="Protfolio of Tarek" />
       <BannerBody />
       {children}

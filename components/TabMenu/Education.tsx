@@ -21,7 +21,7 @@ export default function Education() {
     >
       {programOfEducation.value.map((item, index) => (
         <div
-          class={"xs:(w-full p-4 mt-6 -z-10) md:(w-[672px] px-6 py-8) bg-gray-100 border border-gray-400 rounded hover:(shadow-xl)  animate-left-right "}
+          class={"xs:(w-full p-4 mt-6 animate-left-right) md:(w-[672px] px-6 py-8) bg-gray-100 border bg-white/30 backdrop-blur-md shadow-lg p-8 mt-6 rounded-lg  animate-left-right) "}
           key={index}
           style={{
             opacity: 0,

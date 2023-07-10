@@ -37,8 +37,8 @@ export default function Footer() {
         <ul class="flex flex-row justify-center items-center text-white font-medium uppercase gap-8 my-4">
           <li>Home</li>
           <li>About</li>
-          <li>Skill</li>
-          <li>Team</li>
+          <li>Experience</li>
+          <li>Qualification</li>
           <li>Contact</li>
         </ul>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />

@@ -15,6 +15,7 @@ export default {
         // sans: ["Helvetica", "sans-serif"],
         montserrat: '"Montserrat", sans-serif',
         // poza: ["Proza", "Libre"],
+        poppins: '"Poppins", sans-serif',
       },
       extend: {
         keyframes: {

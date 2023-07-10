@@ -84,13 +84,7 @@ export default function Zippy() {
 
   return (
     <div class="md:(max-w-4xl mt-10 mx-auto) xs:(mx-auto p-8)">
-      <h1
-        class="text-3xl font-medium font-montserrat underline mb-4"
-        style={{
-          textDecorationColor: "aqua",
-          textUnderlineOffset: "8px",
-        }}
-      >
+      <h1 class="text-4xl font-bold font-poppins text-cyan-600 mb-4">
         Experience With Features
       </h1>
       <ul class="space-y-3">
@@ -117,9 +111,11 @@ export default function Zippy() {
                 }`}
               />
             </div>
-            <div class={" overflow-hidden "}>
+            <div
+              class={" overflow-hidden"}
+            >
               <div
-                class={"p-2.5 border border-gray-400 rounded  " +
+                class={"p-2.5 border  rounded  bg-white/30 backdrop-blur-md shadow-lg " +
                   (todo.isOpen ? " animate-up-down " : " animate-down-up ") +
                   (todo.visibility)}
               >

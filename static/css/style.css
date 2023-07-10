@@ -1,0 +1,23 @@
+.circle1,
+.circle2 {
+  background: skyblue;
+  /* background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  ); */
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  
+}
+
+.circle1 {
+  top: 15%;
+  right: 18%;
+}
+.circle2 {
+  bottom: 20%;
+  left: 16%;
+}

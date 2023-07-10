@@ -8,7 +8,7 @@ export default function Tab() {
   const tabPanles = [
     {
       id: 1,
-      tabName: "InterestedField",
+      tabName: "Interested Field",
       panalName: "Interested",
     },
     {

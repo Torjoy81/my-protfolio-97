@@ -1,7 +1,7 @@
 export default function ViedoPlayer() {
   return (
     <div class="  md:( max-w-4xl mt-20  mx-auto gap-x-10)   xs:(flex flex-col gap-y-4 items-center mt-10 )">
-      <h1 class="text-4xl font-medium font-montserrat underline underline-offset-8 decoration-cyan-300">
+      <h1 class="text-4xl font-bold font-poppins text-cyan-600 ">
         Project Demo
       </h1>
       <div
@@ -16,12 +16,12 @@ export default function ViedoPlayer() {
           title="ProjectDemo"
         >
         </iframe>
-        <div>
+        <div class={"md:(rounded  bg-white/30 backdrop-blur-md shadow-lg p-4)"}>
           <h1 class={"text-3xl font-medium font-montserrat p-2.5 text-sky-500"}>
             EasyBooking
           </h1>
           <p
-            class={"font-light font-montserrat leading-normal px-2.5 text-justify"}
+            class={"font-light leading-normal px-2.5 font-poppins  text-justify"}
           >
             This Application is a TrvelBooking Application. For making this
             application, I want to show the bsic frotend features like tab menu,
