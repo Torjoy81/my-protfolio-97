@@ -23,11 +23,11 @@ export default function ViedoPlayer() {
           <p
             class={"font-light leading-normal px-2.5 font-poppins  text-justify"}
           >
-            This Application is a TrvelBooking Application. For making this
-            application, I want to show the bsic frotend features like tab menu,
-            pagination, search, filtering, animation, form validation etc. Here
-            I did backend staff like api managment for multiple filter. The
-            Technology, I did use Vue, Nuxt, MongoDB, Prisma, Swiper.
+            This Application is a Travel Booking Application. For making this
+            application, I want to show the basic fronted features like tab
+            menu, pagination, search, filtering, animation, form validation etc.
+            Here I did back end staff like API management for multiple filter.
+            The Technology, I did use Vue, Nuxt, MongoDB, Prisma, Swiper.
           </p>
           <p class={"text-red-500 font-bold p-2.5"}>
             Resource :{" "}
